@@ -242,5 +242,5 @@ def SpaceInvader():
                     pygame.mixer.music.fadeout(3000)
                     ventana.blit(Texto,(300,300))
             pygame.display.update()
-#Hola!!       
+            
 SpaceInvader()
