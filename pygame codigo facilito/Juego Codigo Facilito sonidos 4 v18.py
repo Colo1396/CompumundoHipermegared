@@ -22,7 +22,11 @@ class naveEspacial(pygame.sprite.Sprite):
                 self.sonidoExplosion=pygame.mixer.Sound("Laser - Efecto de Sonido.ogg")
                 print self.rect
 <<<<<<< HEAD
+<<<<<<< HEAD
         ## sigo probando cambios        
+=======
+
+>>>>>>> parent of 5f9b8f1... cambios de prueba
 =======
 
 >>>>>>> parent of 5f9b8f1... cambios de prueba
