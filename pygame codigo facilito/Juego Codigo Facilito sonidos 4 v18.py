@@ -20,6 +20,11 @@ class naveEspacial(pygame.sprite.Sprite):
                 self.velocidad=20
                 self.sonidoDisparo=pygame.mixer.Sound("Laser - Efecto de Sonido.ogg")
                 self.sonidoExplosion=pygame.mixer.Sound("Laser - Efecto de Sonido.ogg")
+                print self.rect
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 5f9b8f1... cambios de prueba
         def movimientoDerecha(self):
                 self.rect.right+=self.velocidad
                 self.__movimiento()
@@ -240,4 +245,3 @@ def SpaceInvader():
             pygame.display.update()
             
 SpaceInvader()
-## agrego una boludes nada mas
