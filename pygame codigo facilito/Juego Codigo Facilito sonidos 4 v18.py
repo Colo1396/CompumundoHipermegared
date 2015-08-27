@@ -21,9 +21,7 @@ class naveEspacial(pygame.sprite.Sprite):
                 self.sonidoDisparo=pygame.mixer.Sound("Laser - Efecto de Sonido.ogg")
                 self.sonidoExplosion=pygame.mixer.Sound("Laser - Efecto de Sonido.ogg")
                 print self.rect
-                self.lala = 1
-        ## agrego esto a para probar como funciona esta cosa
-        ##LALALAALLAALALALALALL
+        ## sigo probando cambios        
         def movimientoDerecha(self):
                 self.rect.right+=self.velocidad
                 self.__movimiento()
