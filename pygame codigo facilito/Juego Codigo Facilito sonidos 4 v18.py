@@ -6,6 +6,8 @@ ancho=900
 alto=480
 listaEnemigos=[]
 #clase nave espacial
+#AGREGUE ALGO
+
 class naveEspacial(pygame.sprite.Sprite):
         def __init__(self):
                 pygame.sprite.Sprite.__init__(self)
@@ -21,10 +23,8 @@ class naveEspacial(pygame.sprite.Sprite):
                 self.sonidoDisparo=pygame.mixer.Sound("Laser - Efecto de Sonido.ogg")
                 self.sonidoExplosion=pygame.mixer.Sound("Laser - Efecto de Sonido.ogg")
                 print self.rect
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 5f9b8f1... cambios de prueba
+
         def movimientoDerecha(self):
                 self.rect.right+=self.velocidad
                 self.__movimiento()
