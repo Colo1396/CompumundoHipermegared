@@ -12,9 +12,6 @@ listaEnemigos=[]
 
 
 ### probando el cambio
-<<<<<<< HEAD
-#probando otro nuevo cambio
-=======
 ###expotando
 >>>>>>> origin/master
 class naveEspacial(pygame.sprite.Sprite):
