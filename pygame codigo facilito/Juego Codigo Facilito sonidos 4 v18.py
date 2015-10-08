@@ -10,6 +10,7 @@ listaEnemigos=[]
 
 
 ### probando el cambio
+#probando otro nuevo cambio
 class naveEspacial(pygame.sprite.Sprite):
         def __init__(self):
                 pygame.sprite.Sprite.__init__(self)
