@@ -9,8 +9,14 @@ listaEnemigos=[]
 #AGREGUE ALGO
 
 
+
+
 ### probando el cambio
+<<<<<<< HEAD
 #probando otro nuevo cambio
+=======
+###expotando
+>>>>>>> origin/master
 class naveEspacial(pygame.sprite.Sprite):
         def __init__(self):
                 pygame.sprite.Sprite.__init__(self)
